@@ -368,7 +368,7 @@ class MultiScaleModel(object):
         self._img_plane_y = y / d
         self.set_minimization_function()
 
-    def set_minimization_function(self, function='Powell'):
+    def set_minimization_function(self, function='nelder-mead'):
 
         self._minimize_method = function
 
